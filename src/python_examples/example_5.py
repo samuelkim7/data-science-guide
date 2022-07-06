@@ -56,3 +56,10 @@ nums = [1, -2, 3, -5, 8, -3]
 filtered_nums = filter(lambda num: num >= 0, nums)
 print("Q4")
 print(list(filtered_nums))
+
+
+# Q5
+nums = [1, 2, 3, 4]
+mapped = map(lambda num: num*3, nums)
+print("Q5")
+print(list(mapped))
